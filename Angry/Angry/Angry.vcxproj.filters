@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Framework">
+      <UniqueIdentifier>{33deb8e2-3b90-4c2f-8e80-b6be54dacce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework">
+      <UniqueIdentifier>{03f1a8ba-081a-4985-9fde-3ab86ef81133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Angry">
+      <UniqueIdentifier>{7a9e6475-8374-4227-9193-4ba1c1137c97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Angry">
+      <UniqueIdentifier>{bbb63d52-8e8d-4a4f-95b7-4fa2bb890ab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Angry\Levels">
+      <UniqueIdentifier>{cc112dd8-2eb4-4f95-9e66-f5ea8c0b4d6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Angry\Levels">
+      <UniqueIdentifier>{cd61972c-dd7c-4ff1-8125-4eeb44184063}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="assetloader.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="audiomanager.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="clock.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="cubemap.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="gameobject.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="inputmanager.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="level.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="meshsphere.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="particle.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="shaderloader.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="texter.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="floor.cpp">
+      <Filter>Source Files\Angry</Filter>
+    </ClCompile>
+    <ClCompile Include="physicsmanager.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="box.cpp">
+      <Filter>Source Files\Angry</Filter>
+    </ClCompile>
+    <ClCompile Include="slingshot.cpp">
+      <Filter>Source Files\Angry</Filter>
+    </ClCompile>
+    <ClCompile Include="physicsListener.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="ball.cpp">
+      <Filter>Source Files\Angry</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="buttonset.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="evil.cpp">
+      <Filter>Source Files\Angry</Filter>
+    </ClCompile>
+    <ClCompile Include="machine.cpp">
+      <Filter>Source Files\Angry</Filter>
+    </ClCompile>
+    <ClCompile Include="line.cpp">
+      <Filter>Source Files\Angry</Filter>
+    </ClCompile>
+    <ClCompile Include="level1.cpp">
+      <Filter>Source Files\Angry\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="level2.cpp">
+      <Filter>Source Files\Angry\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="level3.cpp">
+      <Filter>Source Files\Angry\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="level4.cpp">
+      <Filter>Source Files\Angry\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="menulevel.cpp">
+      <Filter>Source Files\Angry\Levels</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="assetloader.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="audiomanager.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="clock.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="cubemap.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="gameobject.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="inputmanager.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="level.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="meshsphere.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="modelmesh.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="particle.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="shaderloader.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="texter.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="floor.h">
+      <Filter>Header Files\Angry</Filter>
+    </ClInclude>
+    <ClInclude Include="physicsmanager.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="box.h">
+      <Filter>Header Files\Angry</Filter>
+    </ClInclude>
+    <ClInclude Include="physicsListener.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="ball.h">
+      <Filter>Header Files\Angry</Filter>
+    </ClInclude>
+    <ClInclude Include="slingshot.h">
+      <Filter>Header Files\Angry</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="buttonset.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="evil.h">
+      <Filter>Header Files\Angry</Filter>
+    </ClInclude>
+    <ClInclude Include="machine.h">
+      <Filter>Header Files\Angry</Filter>
+    </ClInclude>
+    <ClInclude Include="line.h">
+      <Filter>Header Files\Angry</Filter>
+    </ClInclude>
+    <ClInclude Include="level1.h">
+      <Filter>Header Files\Angry\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="level2.h">
+      <Filter>Header Files\Angry\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="level3.h">
+      <Filter>Header Files\Angry\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="level4.h">
+      <Filter>Header Files\Angry\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="menulevel.h">
+      <Filter>Header Files\Angry\Levels</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
