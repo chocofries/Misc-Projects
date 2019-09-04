@@ -1,1 +1,1 @@
-Miscellansoues Projects
+Miscellaneous Projects
